@@ -7,7 +7,7 @@ Version:        0.8.2
 Release:        1%{?dist}
 Summary:        Docker and OCI Registry Client in Go and tooling using those libraries
 Group:          Applications/System
-License:        MIT
+License:        Apache-2.0
 URL:            https://github.com/%{gh_user}/%{name}
 Source:         https://github.com/%{gh_user}/%{name}/archive/v%{version}.tar.gz
 BuildRequires:  git golang
