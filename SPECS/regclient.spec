@@ -3,7 +3,7 @@
 %global gh_user regclient
 
 Name:           regclient
-Version:        0.8.2
+Version:        0.8.3
 Release:        1%{?dist}
 Summary:        Docker and OCI Registry Client in Go and tooling using those libraries
 Group:          Applications/System
@@ -34,5 +34,8 @@ install -Dm0755 %{_builddir}/%{name}-%{version}/bin/regsync %{buildroot}%{_bindi
 %{_bindir}/regsync
 
 %changelog
+* Thu Apr 24 2025 Jamie Curnow <jc@jc21.com> 0.8.3-1
+- https://github.com/regclient/regclient/releases/tag/v0.8.3
+
 * Tue Apr 22 2025 Jamie Curnow <jc@jc21.com> 0.8.2-1
 - https://github.com/regclient/regclient/releases/tag/v0.8.2
